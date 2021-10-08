@@ -29,6 +29,7 @@ html {
 .background-section-one {
   background: rgb(171,0,255);
   background: linear-gradient(313deg, rgba(171,0,255,1) 0%, rgba(240,127,201,1) 100%);
+  max-width: 100%;
 }
 .mensagem {
   box-sizing: border-box;
