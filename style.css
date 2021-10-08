@@ -13,10 +13,13 @@ html {
 
 .section-container {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(171,0,255);
+  background: linear-gradient(313deg, rgba(171,0,255,1) 0%, rgba(240,127,201,1) 100%);
+  max-width: 100%;
 }
 
 .logo {
@@ -26,11 +29,6 @@ html {
   width: 70%;
 }
 
-.background-section-one {
-  background: rgb(171,0,255);
-  background: linear-gradient(313deg, rgba(171,0,255,1) 0%, rgba(240,127,201,1) 100%);
-  max-width: 100%;
-}
 .mensagem {
   box-sizing: border-box;
   display: flex;
